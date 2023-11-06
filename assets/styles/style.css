@@ -13,58 +13,30 @@ body {
 .container {
   max-width: 1170px;
   margin: 0 auto;
-  /* border: 1px solid #ff0000; */
-}
-
-.jumbotron {
   text-align: center;
-  background-color: #F9F5F6;
-  padding: 16px 0 9px;
-}
-
-.personal-img img {
-  width: 500px;
+  
 }
 
 .top-wrapper {
-  background-color: #95BDFF;
+  background-color: #203449;
   position: relative;
   text-align: center;
-  padding: 120px 0;
+  padding: 10px ;
   height: 600px;
 }
 
-.wave {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.wave svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 150px;
-}
-
-.wave .shape-fill {
-  fill: #B4E4FF;
-}
 
 .profile-item {
-  width: 350px;
+  width: 310px;
   margin: 0 auto;
-  color: #F9F5F6;
+  color: #fff;
 }
 
 .profile-item img {
   width: 100%;
-  border-radius: 100%;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 300px;
+  overflow: hidden;
+  
 }
 
 .profile-item h1 {
